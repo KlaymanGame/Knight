@@ -47,8 +47,8 @@ class Climbing(App, Screen):
         self.sm.current = 'first'
         self.sm.transition.duration = 0.5
         self.menu_image.y = y*8
-        self.count = 0
-        self.power = 10
+        self.count = 10
+        self.power = 100
         self.press_menu_continue()
         for i in self.count_screen[:]:
             i.remove_widget(self.menu_box)
